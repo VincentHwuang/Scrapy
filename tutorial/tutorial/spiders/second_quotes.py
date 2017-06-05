@@ -2,8 +2,8 @@
 import scrapy
 
 
-class QuotesSpider(scrapy.Spider):
-	name = 'quotes'
+class SecondQuotesSpider(scrapy.Spider):
+	name = 'second_quotes'
 #    allowed_domains = ['http://quotes.toscrape.com/page/1']
 #    start_urls = ['http://http://quotes.toscrape.com/page/1/']
 	def start_requests(self):
